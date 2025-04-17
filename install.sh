@@ -7,6 +7,7 @@ module purge
 module load cmake
 module load hdf5
 module load gcc/14.1.0
+mamba activate
 
 # Comment out these variables to skip these install steps
 
